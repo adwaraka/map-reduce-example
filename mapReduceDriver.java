@@ -18,7 +18,7 @@ public class mapReduceDriver {
 		
 		if (programArgs.length<2) {
 			System.out.println("Please check your inputs");
-			System.exit(0);
+			System.exit(1);
 		}
 		
 		Job job = new Job(conf,"Contoso");
